@@ -1,0 +1,95 @@
+.s-1 {
+    
+    .container {
+        margin: 0 auto;
+        max-width: $container-width;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 90px;
+
+        .logo {
+            cursor: pointer;
+            width: 190px;
+            height: 43px;
+        }
+
+        & > ul {
+            li {
+                display: inline-block;
+                margin-left: 50px;
+                font-size: 20px;
+                font-family: $textFont;
+                font-weight: bold;
+            }
+
+            a:link {
+                color: #3D37F1;
+            }
+
+            a:visited {
+                color: #3D37F1;
+            }
+
+            a:hover {
+                color: #534D4D;
+            }
+        }
+    }
+}
+
+.s-2 {
+    margin-top: 305px;
+    .container-2 {
+        margin: 0 auto;
+        max-width: $container-width;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .TextAndButton {
+            h1 {
+                font-family: $textFont;
+                font-size: 78px;
+                font-weight: bold;
+                color: #534D4D;
+                max-width: 640px;
+                margin-bottom: 60px;
+            }
+
+            h2 {
+                font-family: 'Roboto', sans-serif;
+                font-size: 22px;
+                color: #534D4D;
+                margin-bottom: 165px;
+            }
+
+            
+
+            .Button {
+                transform: translate(0, 25px);
+                cursor: pointer;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                @include Button(260px, 75px, #3D37F1, 38px);
+                font-family: 'Poppins', sans-serif;
+                font-size: 23px;
+                transition: 0.3s;
+
+                .WaveIcon {
+                    width: 30px;
+                }
+            }
+
+            .Button:hover {
+                width: 280px;
+            }
+        }
+
+        .Image {
+            .Artwork {
+                transform: translate(192px, 0);
+            }
+        }
+    }
+}

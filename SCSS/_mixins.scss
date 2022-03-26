@@ -1,0 +1,9 @@
+@mixin Button($buttonWidth, $buttonHeight, $buttonColor, $buttonRadius) {
+    text-decoration: none;
+    width: $buttonWidth;
+    height: $buttonHeight;
+    background-color: $buttonColor;
+    border-radius: $buttonRadius;
+    border: none;
+    color: white;
+}
