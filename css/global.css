@@ -114,18 +114,17 @@ a {
   color: #534D4D;
   max-width: 640px;
   margin-bottom: 60px;
+  line-height: 100px;
 }
 
 .s-2 .container-2 .TextAndButton h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
   color: #534D4D;
-  margin-bottom: 165px;
+  margin-bottom: 160px;
 }
 
 .s-2 .container-2 .TextAndButton .Button {
-  -webkit-transform: translate(0, 25px);
-          transform: translate(0, 25px);
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
